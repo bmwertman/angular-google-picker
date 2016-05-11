@@ -8,7 +8,7 @@
  * License: MIT
  */
 (function () {
-  angular.module('lk-google-picker', [])
+  angular.module('lkGooglePicker', [])
 
   .provider('lkGoogleSettings', function () {
     this.apiKey   = null;
